@@ -1,0 +1,12 @@
+body {
+  background: aqua;
+  color: rgb(19, 81, 83);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  font-size: 30px;
+  font-family: monospace;
+  text-shadow: 1px 1px 1px black;
+}
