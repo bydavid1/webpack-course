@@ -1,3 +1,14 @@
+@font-face {
+  font-family: "open_sansregular";
+  src: url("../fonts/OpenSans-Regular-webfont.eot");
+  src: url("../fonts/OpenSans-Regular-webfont.eot?#iefix") format("embedded"),
+    url("../fonts/OpenSans-Regular-webfont.woff") format("woff"),
+    url("../fonts/OpenSans-Regular-webfont.ttf") format("truetype"),
+    url("../fonts/OpenSans-Regular-webfont.svg#open_sansregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   background: aqua;
   color: rgb(19, 81, 83);
@@ -7,6 +18,6 @@ body {
   min-height: 100vh;
   margin: 0;
   font-size: 30px;
-  font-family: monospace;
+  font-family: open_sansregular;
   text-shadow: 1px 1px 1px black;
 }

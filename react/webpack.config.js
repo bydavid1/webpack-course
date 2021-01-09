@@ -31,10 +31,19 @@ module.exports = {
       },
       {
         test: /\.js$/,
-        use : [
+        use: [
           'babel-loader' 
         ],
         exclude: /node_modules/
+      },
+      {
+        test: /\.jpg|png|gif|svg|woff|eot|ttf|mp4$/,
+        use: {
+          loader: 'url-loader',
+          options: {
+            limit: 900000
+          }
+        },
       }
     ]
   },
