@@ -12,7 +12,8 @@
     "build:plugins": "webpack --config ./plugins/webpack.config.js",
     "build:dev": "webpack serve --config ./webpack-dev-server/webpack.config.js",
     "build:babel": "webpack serve --config ./babel/webpack.config.js",
-    "build:react": "webpack --config ./react/webpack.config.js"
+    "build:react": "webpack --config ./react/webpack.config.js",
+    "build:prevent": "webpack --config ./prevent-duplication/webpack.config.js"
   },
   "author": "",
   "license": "ISC",
